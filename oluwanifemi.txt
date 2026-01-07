@@ -1,0 +1,11 @@
+What you did
+ You pulled nanas repository code into yur system 
+ You manuall created a repo in your github (Wrong)
+
+
+ You should have removed the address of nanas repo from your local repo and added your github repo address instead.
+    To do that you should have used the following commands: git remote remove origin
+    Then you should have added your github repo address using: git remote add origin <your_github_repo_address>
+ After that you could have pushed your code using: git push -u origin main  
+
+ 
